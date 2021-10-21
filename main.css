@@ -1,0 +1,152 @@
+body{
+
+    margin: 0;
+     background-color: #2e2e2e; 
+      /* background-image: linear-gradient(to right, #f5d1fd, #f6c3ff, #f7b4ff, #f8a5ff, #fa94ff); */
+     /* background-image: rgb(255, 255, 255); */
+     background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Simple_world_map.svg/2560px-Simple_world_map.svg.png') ; 
+     
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken ;
+}
+
+.head-line{
+    color: rgb(248, 248, 248);
+    letter-spacing: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    
+
+}
+
+.container{
+
+    margin-top: 80px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    /* background-color: rgb(32, 32, 32); */
+
+}
+
+/* -----------------search Box Css starts------------------------------- */
+
+.srch-value{
+    outline: none;
+    border: none;
+    width: 60%;
+    border-radius: 20px 0px 0px 0px;
+    padding: 10px;
+
+}
+
+.btn-srch{
+    color: white;
+    font-family: cursive;
+    border: none;
+    padding: 10px;
+    background-color: #798fd8;
+    border-radius: 0 0px 20px 0px;
+
+}
+
+.btn-srch:hover{
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    border: none;
+    padding: 10px;
+    background-color: #5770c0;
+    
+
+}
+
+ .adv-Search {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #00838f !important;
+}
+
+.adv-card{
+
+
+        border-radius:7px ;
+        background-color: rgb(29, 29, 29);
+        padding: 10px 50px;
+
+}
+
+.adv-card select , .adv-card input{
+
+    border: none;
+    outline: none;
+    background-color: rgb(240, 240, 240);
+    padding: 5px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+
+}
+
+
+
+/* -----------------search Box Css end------------------------------- */
+
+/* -----------------Result Card Css starts------------------------------- */
+
+.result-container{
+
+    /* background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/56/26/J8lj3L.jpg'); 
+     background-repeat: no-repeat; 
+    background-size: cover;*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: rgb(59, 59, 59);
+    opacity: 0;                  /*  Opacity 1 in script.js/showData()(line 105)  */
+    transition: 1s all;         
+    
+}
+
+.result-container > h4{ /*results: */
+
+    color: rgb(212, 212, 212);
+    font-size: 30px;
+    font-family: cursive;
+
+} 
+
+.card-css{
+   
+    width: 320px;
+    height: 300px;
+    font-family: cursive;
+    color: rgb(37, 37, 92);
+    box-shadow:rgba(94, 93, 93, 0.24) 0px 3px 8px;
+    background-color: rgb(253, 241, 75);
+    
+ 
+}
+
+.card-css-body > div{
+
+    margin: 25px 2px;
+
+}
+
+.pin{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(253, 63, 63);
+    border: 2px red double;
+    box-shadow: 0px 4px 5px black;
+}
+
+.pin > div{
+    width: 10px;
+    height: 10px;
+    margin: 3px auto;
+    border-radius: 50%;
+    background-color: rgb(180, 34, 34);
+    /* border: 2px rgb(122, 1, 1) double; */
+    box-shadow: 0px 2px 4px 2px rgb(99, 7, 7);
+}
+
+/* -----------------Result Card Css Ends------------------------------- */
